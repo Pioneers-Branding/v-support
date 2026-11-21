@@ -140,6 +140,12 @@
         </div>
         <div class="footer-bottom">
             <div class="container">
+                <p class="mb-2">
+                    <a href="privacy-policy">Privacy Policy</a> &nbsp;|&nbsp;
+                    <a href="privacy-policy-hi" lang="hi">गोपनीयता नीति</a> &nbsp;|&nbsp;
+                    <a href="terms">Terms of Use</a> &nbsp;|&nbsp;
+                    <a href="data-request">Your Data Rights</a>
+                </p>
                 <p>
                     &copy; 2023 All Rights Reserved. Designed by <a
                         href="https://brandingpioneers.com/" target="_blank">Branding Pioneers</a>
@@ -158,7 +164,8 @@
     <script>
             document.addEventListener('DOMContentLoaded', function() {
                 var form = document.querySelector('.contact-form');
-            
+                if (!form) return; // pages without an enquiry form
+
                 form.addEventListener('submit', function(event) {
                     event.preventDefault(); // Prevent form from submitting initially
             

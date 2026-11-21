@@ -407,6 +407,7 @@ select{
                     <div class="section-header">
                         <!--<span class="cate">Photo Gallery</span>-->
                         <h3 class="title">KiDZ CLUB Photo Gallery</h3>
+                        <p class="photo-takedown-note">Are you a parent or guardian? If you would like a photo of your child removed, <a href="data-request?type=remove-photo">let us know</a> and we will take it down.</p>
                     </div>
                 </div>
             </div>
@@ -764,6 +765,7 @@ select{
                 <div class="form-group w-100">
                     <textarea name="message" id="message" id="message" placeholder="Your Message"></textarea>
                 </div>
+                <?php $consentAudience = 'guardian'; include 'consent-block.php'; ?>
                 <div class="g-recaptcha" data-sitekey="6LctBhkqAAAAANJj93LRjXUmlsKsCGHL6VnXpTbh"></div>
                     <br>
                 <div class="form-group w-100 text-center">

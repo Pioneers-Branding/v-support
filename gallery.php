@@ -93,6 +93,7 @@
             <img src="./assets/css/img/bottom-shape.png" alt="css">
         </div>
         <div class="container">
+            <p class="photo-takedown-note">Are you a parent or guardian? If you would like a photo of your child removed, <a href="data-request?type=remove-photo">let us know</a> and we will take it down.</p>
             <ul class="filter-2">
                 <li data-filter="*" class="active"><span class="category">Show All</span><span class="amount">92</span>
                 </li>

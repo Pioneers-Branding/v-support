@@ -1011,8 +1011,8 @@ Hope to see few More GDGHA Academy's In Gea & Many More across India.
                 </div>
                 <div class="form-group">
                     <!--<input type="text" placeholder="Location" id="Location" name="Location">-->
-                     <select id="phone">
-                         <option value="Select Location">Select Location</option>
+                     <select id="location" name="location">
+                         <option value="" selected disabled>Select Location</option>
                          <option value="Goa">Goa</option>
                          <option value="Bhilwara">Bhilwara</option>
                          
@@ -1021,6 +1021,7 @@ Hope to see few More GDGHA Academy's In Gea & Many More across India.
                 <div class="form-group w-100">
                     <textarea name="message" id="message" id="message" placeholder="Your Message"></textarea>
                 </div>
+                <?php include 'consent-block.php'; ?>
                 <div class="g-recaptcha" data-sitekey="6LctBhkqAAAAANJj93LRjXUmlsKsCGHL6VnXpTbh"></div>
                     <br>
                 <div class="form-group w-100 text-center">

@@ -872,12 +872,13 @@ I would like to thank my coordinators helpful and guided me </p>
                     <input type="number" placeholder="Phone" id="phone" name="phone" oninput="limitNumberLength(this, 9+1)" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Subject" id="Location" name="Location">
+                    <input type="text" placeholder="Subject" id="subject" name="subject">
                    
                 </div>
                 <div class="form-group w-100">
                     <textarea name="message" id="message" id="message" placeholder="Your Message"></textarea>
                 </div>
+                <?php include 'consent-block.php'; ?>
                 <div class="g-recaptcha" data-sitekey="6LctBhkqAAAAANJj93LRjXUmlsKsCGHL6VnXpTbh"></div>
                     <br>
                 <div class="form-group w-100 text-center">

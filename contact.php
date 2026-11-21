@@ -263,6 +263,7 @@
                     <div class="form-group w-100">
                         <textarea name="message" id="message" id="message" placeholder="Your Message"></textarea>
                     </div>
+                    <?php include 'consent-block.php'; ?>
                     <div class="g-recaptcha" data-sitekey="6LctBhkqAAAAANJj93LRjXUmlsKsCGHL6VnXpTbh"></div>
                     <br>
                     <div class="form-group w-100 text-center">
